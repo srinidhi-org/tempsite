@@ -1,52 +1,30 @@
-body,
-html {
- padding:0;
- margin:0;
- font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif
+body {
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  max-width: 100%;
+  min-height: 100vh;
+  height: auto;
+  letter-spacing: 0.1em;
 }
 
-* {
- -webkit-box-sizing:border-box;
- -moz-box-sizing:border-box;
- box-sizing:border-box
+.logo {
+    width: 326px;
 }
 
-main {
- padding:5rem 0;
- -moz-box-flex:1;
- flex:1 1;
- display:-moz-box;
- display:flex;
- -moz-box-orient:vertical;
- -moz-box-direction:normal;
- flex-direction:column;
- -moz-box-pack:center;
- justify-content:center;
- -moz-box-align:center;
- align-items:center
+.sheets {
+    width: 100%;
+    height: 500px;
 }
 
-code {
- background:#fafafa;
- border-radius:5px;
- padding:.75rem;
- font-family:Menlo,Monaco,Lucida Console,Courier New,monospace
-}
-
-.container {
- height:100vh;
- display:-moz-box;
- display:flex;
- -moz-box-orient:vertical;
- -moz-box-direction:normal;
- flex-direction:column;
- -moz-box-pack:center;
- justify-content:center;
- -moz-box-align:center;
- align-items:center
-}
-
-  .links {
+.links {
     display: block;
     max-width: 550px;
     margin: 0 auto 15px;
