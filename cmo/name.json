@@ -1,0 +1,77 @@
+[
+    {
+        "link" : "genmed",
+        "name" : "General Medicine",
+        "tab_name" : "General%20Medicine"
+    },
+    {
+        "link" : "gensur",
+        "name" : "General Surgery",
+        "tab_name" : "General%20Surgery"
+    },
+    {
+        "link" : "ortho",
+        "name" : "Orthopedics",
+        "tab_name" : "Orthopedics"
+    },
+    {
+        "link" : "obg",
+        "name" : "Obstetrics & Gynecology",
+        "tab_name" : "Obstetrics%20%24%20Gynecology "
+    },
+    {
+        "link" : "pedia",
+        "name" : "Pediatrics",
+        "tab_name" : "Pediatrics"
+    },
+    {
+        "link" : "ophthal",
+        "name" : "Ophthalmology",
+        "tab_name" : "Ophthalmology"
+    },
+    {
+        "link" : "ent",
+        "name" : "Otorhinolaryngology[ENT]",
+        "tab_name" : "Otorhinolaryngology%5BENT%5D"
+    },
+    {
+        "link" : "psm",
+        "name" : "Community Medicine[PSM]",
+        "tab_name" : "Community%20Medicine%5BPSM%5D"
+    },
+    {
+        "link" : "psych",
+        "name" : "Psychiatry",
+        "tab_name" : "Psychiatry"
+    },
+    {
+        "link" : "anaesthesia",
+        "name" : "Anaesthesiology",
+        "tab_name" : "Anaesthesiology"
+    },
+    {
+        "link" : "derma",
+        "name" : "Dermatology",
+        "tab_name" : "Dermatology"
+    },
+    {
+        "link" : "radio",
+        "name" : "Radiology",
+        "tab_name" : "Radiology"
+    },
+    {
+        "link" : "casualty",
+        "name" : "Emergency Medicine[Casualty]",
+        "tab_name" : "Emergency%20Medicine%5BCasualty%5D"
+    },
+    {
+        "link" : "dent",
+        "name" : "Dentistry",
+        "tab_name" : "Dentistry"
+    },
+    {
+        "link" : "",
+        "name" : "",
+        "tab_name" : ""
+    }
+]
