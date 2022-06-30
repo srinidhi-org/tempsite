@@ -70,6 +70,16 @@
         "tab_name" : "Dentistry"
     },
     {
+        "link" : "lab",
+        "name" : "Laboratory",
+        "tab_name" : "Laboratory"
+    },
+    {
+        "link" : "amb",
+        "name" : "Ambulance Driver",
+        "tab_name" : "Ambulance%20Driver"
+    },
+    {
         "link" : "",
         "name" : "",
         "tab_name" : ""
