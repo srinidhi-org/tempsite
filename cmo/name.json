@@ -17,7 +17,11 @@
     {
         "link" : "obg",
         "name" : "Obstetrics & Gynecology",
+<<<<<<< HEAD
         "tab_name" : "Obstetrics%20%Gynecology"
+=======
+        "tab_name" : "Obstetrics%20Gynecology"
+>>>>>>> c26d7438558e8f8293df0e8eabb0d29e8c4284d3
     },
     {
         "link" : "pedia",
@@ -68,6 +72,16 @@
         "link" : "dent",
         "name" : "Dentistry",
         "tab_name" : "Dentistry"
+    },
+    {
+        "link" : "lab",
+        "name" : "Laboratory",
+        "tab_name" : "Laboratory"
+    },
+    {
+        "link" : "amb",
+        "name" : "Ambulance Driver",
+        "tab_name" : "Ambulance%20Driver"
     },
     {
         "link" : "",

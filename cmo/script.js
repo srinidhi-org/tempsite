@@ -25,19 +25,48 @@ request.onload = function () {
     request.send();
     request.onload = function () {
     const fullData = request.response;
-    const data = fullData.values;
+    const data = fullData.values.filter(arr => arr[0] != "");
     list(data);
     }
 
     function list(obj){
       var list = '';
+      var colour;
+      var phonenum;
+      var name;
       for (let i = 1; i < obj.length; i++) {
-        list += '<div class="links"><a class="links links--' + obj[i][4] + '" href="' + obj[i][3] + '">' + obj[i][0] + '</a></div>';
+        switch (obj[i][1]) {
+          case 'Intern':
+            colour = 'canyan';
+            break;
+          case 'PG':
+            colour = 'light-yellow';
+            break;
+          case 'SR':
+            colour = 'light-red';
+            break;
+          case 'SRID':
+            colour = 'light-red';
+            break;        
+          default: colour = 'grey';
+            break;
+        }
+        if (isNaN(obj[i][2])){
+          phonenum = obj[i][2] ;
+        } else {
+          phonenum = `tel:${obj[i][2]}` ;
+        }
+        name = obj[i][0] ;
+        list += `<div class="links"><a class="links links--${colour}" href="${phonenum}">${name}</a></div>`;
       }
       document.querySelector('#mainFrame').innerHTML = list;
+<<<<<<< HEAD
       console.log('Successfully Updated the list');    
+=======
+      document.getElementById("departments").style.display = "none";
+      console.log("Successfully loaded");    
+>>>>>>> c26d7438558e8f8293df0e8eabb0d29e8c4284d3
     }
-
 
   }
 }
