@@ -1,7 +1,6 @@
 const list = document.querySelector('#mainFrame');
 
 const id = new URLSearchParams(window.location.search).get('id');
-// const id = "genmed";
 
 let request = new XMLHttpRequest();
 request.open('GET', 'name.json');
@@ -36,7 +35,7 @@ request.onload = function () {
         list += '<div class="links"><a class="links links--' + obj[i][4] + '" href="' + obj[i][3] + '">' + obj[i][0] + '</a></div>';
       }
       document.querySelector('#mainFrame').innerHTML = list;
-      console.log(obj);    
+      console.log('Successfully Updated the list');    
     }
 
 
